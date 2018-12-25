@@ -64,6 +64,17 @@ public class Order {
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
+
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Order" + "\n"
+				+ "Id: " + id + "\n"
+				+ "Moment: " + moment + "\n" 
+				+ "Status: " + status + "\n";
+	}
 	
 	
 
