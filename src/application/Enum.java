@@ -1,8 +1,10 @@
 package application;
 
+import java.util.Scanner;
+
 public class Enum {
 	public static void main(String[] args) {
-		System.out.println("io");
+		Scanner sc = new Scanner(System.in);
 	}
 
 }
